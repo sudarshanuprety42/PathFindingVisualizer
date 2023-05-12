@@ -1,0 +1,9 @@
+#root{
+  background-color: rgb(48, 44, 58);
+  display: flex;
+  max-height: 100vh;
+  min-height: 100vh;
+  min-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}

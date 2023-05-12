@@ -1,0 +1,39 @@
+.grid-container {
+  margin: 10px auto;
+  display: block;
+}
+
+button {
+  margin: 2px;
+}
+
+.btn-container {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+tbody{
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  min-width: 320px;
+}
+tr{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+td {
+  flex-grow: 1;
+  flex-basis: 0;
+  aspect-ratio: 1;
+}
